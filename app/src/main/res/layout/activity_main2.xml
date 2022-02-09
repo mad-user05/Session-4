@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:padding="10dp"
+    tools:context=".main.MainActivity2">
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/rv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/but3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img1" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv1"
+        android:layout_centerHorizontal="true"
+        android:text="Избранное"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/rv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cancel"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/but3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="Подборки"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/rv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cancel"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/but3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img3" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv3"
+        android:layout_marginLeft="10dp"
+        android:text="Обсуждения"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
